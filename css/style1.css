@@ -131,3 +131,91 @@ footer{
 }
 .modal-body > iframe{
 }
+
+#w3review{
+resize: none;
+      
+}
+
+
+
+@media (max-width: 991px){
+    #forms2 > .row{
+        flex-direction: row-reverse;
+    }
+
+}
+#forms2 *> input {
+    
+    color: rgb(146, 145, 145);
+    background: transparent;
+    
+}
+#forms2 *> textarea{
+    max-width: 100%;
+    background: transparent;
+    
+}
+#send{
+    color: blue;
+    border-color: blue;
+    background-color: transparent;
+    padding: 0.2rem 1.4rem;
+}
+
+#direc{
+   text-align: center;
+
+}
+#footer {
+    padding-top: 2rem;
+}
+#logo > img{
+    max-width: 80vw;
+    margin: 0 auto;
+    padding: 0;
+    width: -webkit-fill-available;
+    padding-bottom: 2rem;
+}
+@media (max-width: 991px){
+    #logo > img{
+        width: 50%
+    }
+
+}
+
+#logo > p {
+    padding-bottom: 2rem;
+    text-align: center;
+}
+@media (min-width: 991px){
+    #logo > p {
+      text-align: left;
+    }
+}
+
+
+#term *> li{
+    display: inline;
+    padding-inline: 1rem;
+}
+@media (min-width: 991px){
+    #term *> li{
+        padding-inline: 2rem;
+    }
+
+}
+#redes {
+    padding-top: 2rem;
+    bottom: 0;
+}
+#redes *> li{
+    display: inline;
+    padding-inline: 1rem;
+}
+#redes *> li >img{
+    width: 3rem;
+}
+#redes *> p {
+    margin-top: 2rem;
+}
