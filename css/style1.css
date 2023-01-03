@@ -10,7 +10,7 @@
     background: linear-gradient(135deg, #1CB5E090 0%, #000850 100%), url(/img/01.jpg);
     background-size: 100% 100%;
     color: #fff;
-font-size:0.8rem;
+    font-size:0.8rem;
 }
 #header > .container{
     padding-top: 1rem;
@@ -22,10 +22,10 @@ font-size:0.8rem;
 }
 #header *> img{
     width: 15rem;
-
+    
 }
 #header *> li{
-
+    
     width: max-content;
     padding: 0;
     margin: 0;
@@ -64,7 +64,7 @@ footer{
     }
 }
 #our_story_text{    
-  color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
 }
 
 
@@ -81,10 +81,53 @@ footer{
     padding: 0.2rem 1rem;
 }
 .carousel-item{
-    padding: 3rem;
+    padding: 0.4rem;
 }
 
 #carousel_texto{
-padding: 1rem;
+    padding: 1rem;
     
+}
+
+#boton_slider{
+    background-color: transparent;
+    color: #fff;
+    border: #fff solid 1px;
+    padding: 0.2rem 1rem;
+}
+
+@media (max-width: 991px){
+    #boton_slider{
+        margin: 3rem;
+    }
+}
+
+#video{
+    padding: 10rem;
+    background-image: url(/img/02.jpg); 
+    background-size: 100% 115%;
+}
+@media (max-width: 991px){
+    #video{
+       background-size: 100% 100%;
+        background-repeat: no-repeat;
+   
+    }
+}
+
+#video > button{
+    
+    display: block;
+    margin: auto;
+    background: transparent;
+    border: transparent;
+}
+
+#video *> p{
+    font-size: 1.5rem;
+}
+.modal-dialog{
+    width: 50vw;
+}
+.modal-body > iframe{
 }

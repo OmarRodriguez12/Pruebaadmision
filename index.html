@@ -39,38 +39,31 @@
             <h2>sapo</h2><p><hr>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a diam eget metus mollis interdum. Phasellus sollicitudin libero metus, non mollis mauris euismod ut. Ut pharetra sit amet ligula quis blandit. Proin ut felis a arcu porta fringilla in non eros. Interdum et malesuada fames ac ante ipsum primis in.
             </p>
-            <button>Ver mas </button>
+            <button id="boton_slider">VER MÁS </button>
           </div>
           <div class="carousel-item" data-bs-interval="5000">
             <h2>care cchimba</h2><p><hr>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a diam eget metus mollis interdum. Phasellus sollicitudin libero metus, non mollis mauris euismod ut. Ut pharetra sit amet ligula quis blandit. Proin ut felis a arcu porta fringilla in non eros. Interdum et malesuada fames ac ante ipsum primis in.
             </p>
-            <button>Ver mas </button>
+            <button id="boton_slider">VER MÁS </button>
           </div>
           <div class="carousel-item" data-bs-interval="5000">
             <h2>Seccion Sliderect</h2><p><hr>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a diam eget metus mollis interdum. Phasellus sollicitudin libero metus, non mollis mauris euismod ut. Ut pharetra sit amet ligula quis blandit. Proin ut felis a arcu porta fringilla in non eros. Interdum et malesuada fames ac ante ipsum primis in.
             </p>
-            <button>Ver mas </button>
+            <button id="boton_slider">VER MÁS </button>
           </div>
           <div class="carousel-item" data-bs-interval="5000">
             <h2>Seccion Slider </h2><p><hr>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a diam eget metus mollis interdum. Phasellus sollicitudin libero metus, non mollis mauris euismod ut. Ut pharetra sit amet ligula quis blandit. Proin ut felis a arcu porta fringilla in non eros. Interdum et malesuada fames ac ante ipsum primis in.
             </p>
-            <button>Ver mas </button>
+            <button id="boton_slider">VER MÁS </button>
           </div>
           </div>
         </div>
       </div></div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+       
       </div>
     </div> <div>
 
@@ -98,16 +91,29 @@
   
   <!--Viadeo modal-->
   <section id="video">
-    <div>
-      <img src="img/02.jpg" width="100%">
+ <!-- Button trigger modal -->
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <img src="img/play.png"> <p>
+        VÍDEO MODAL </p>
+      </button>
       
-      <div>
-        video modal  <button> </button> 
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog container-sm container-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+            
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <iframe  src="https://www.youtube.com/embed/BL9o9BncAis" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="modal-footer">
+                                         
+            </div>
+          </div>
+        </div>
       </div>
-      <div>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/puCG51NX5sE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
-    </div>
+      
   </section>
   
   <!-- Secccion json -->
