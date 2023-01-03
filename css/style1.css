@@ -48,3 +48,43 @@ footer{
 #our_story{
     color: black;
 }
+#img_our {
+    justify-content: center;
+}
+
+
+#img_our > img{
+    width: auto; height: 50%;
+    
+}
+
+@media (min-width: 768px) { 
+    #our_story_text{
+        text-align: left;
+    }
+}
+#our_story_text{    
+  color: rgb(0, 0, 0);
+}
+
+
+#our_story_text > p{
+    color: rgb(146, 145, 145);
+    
+    justify-content: center;
+}
+
+#boton{
+    color: blue;
+    border-color: blue;
+    background-color: #fff;
+    padding: 0.2rem 1rem;
+}
+.carousel-item{
+    padding: 3rem;
+}
+
+#carousel_texto{
+padding: 1rem;
+    
+}
